@@ -47,7 +47,7 @@ sudo easy_install pip
 #install docker sdk for python 
 pip install docker
 ```
-## run the included puthon script. Run this everytime u need to start JOE also supports multiple versions like 1.11.5,1.12.9
+## run the included python script. Run this everytime u need to start JOE also supports multiple versions like 1.11.5,1.12.9
 
 ```bash
 python joe_build_run.py --joe_version 1.12.9 --workdir <YOUR SOURCE_WORK_DIR> --image_name <new name>
