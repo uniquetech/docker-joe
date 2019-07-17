@@ -31,7 +31,7 @@ cd into the docker-joe/
 open -a xquartz
 ```
 
-## To build the container with JOE_VERSION 1.11.5 or 1.12.9 using included python script.
+# To build the container with specific JOE_VERSION u can use the included python script.
 
 Install python
 
@@ -45,13 +45,13 @@ sudo easy_install pip
 #install docker sdk for python 
 pip install docker
 ```
-## run the included puthon script. Run this everytime u need to start JOE also supports multiple versions 1.11.5 or 1.12.9
+## run the included puthon script. Run this everytime u need to start JOE also supports multiple versions like 1.11.5,1.12.9
 
 ```bash
-python joe_build_run.py --joe_version 1.12.9 --workdir <YOUR SOURCE_WORK_DIR>
+python joe_build_run.py --joe_version 1.12.9 --workdir <YOUR SOURCE_WORK_DIR> --image_name <new name>
 ```
 
-## For user familliar with docker you can use the below steps instead of using the above python scripts.
+# For users familliar with docker you can use the below steps instead of using the above python scripts.
 
 ```bash
 #build docker image using the command below. NOTE: One off step to build the image with JOE_VERSION. Repeat only if u need to switch JOE versions.
