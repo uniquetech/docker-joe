@@ -82,6 +82,6 @@ docker run -d --rm -e DISPLAY=$HOST_IP:0 --name joe_1.11.5 -v $SOURCE_WORK_DIR:/
 
 ***
 Notes:
-  - Use iterm in mac
+  - Use iterm2 in mac to run the bash commands
   - The xserver needs to be running in mac for hosting the GUI. Mac might sometimes close the server due to inactivity or when logged off so please save the work as often as possible.
   - In JOE SOURCE_WORK_DIR will be binded to /opt/sos-berlin.com/joe/config/live. you will find your projects there.
